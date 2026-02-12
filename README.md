@@ -1,3 +1,33 @@
+## 🧩 Database ER Diagram
+
+```mermaid
+erDiagram
+
+    CUSTOMER {
+        INT customer_id PK
+        VARCHAR name
+        VARCHAR city
+        DATE signup_date
+    }
+
+    ORDERS {
+        INT order_id PK
+        INT customer_id FK
+        DATE order_date
+        DECIMAL total_amount
+    }
+
+    ORDER_ITEMS {
+        INT item_id PK
+        INT order_id FK
+        VARCHAR product_name
+        INT quantity
+        DECIMAL price
+    }
+
+    CUSTOMER ||--o{ ORDERS : places
+    ORDERS ||--o{ ORDER_ITEMS : contains
+```
 # 🛒 SQL E-Commerce Analytics Project
 
 ## 📌 Project Preview
@@ -120,4 +150,5 @@ Sohel Ali
 ---
 
 ## ⭐ If you found this project useful, consider giving it a star!
+
 
