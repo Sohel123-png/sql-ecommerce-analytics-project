@@ -2,6 +2,10 @@
 
 This project demonstrates SQL-based e-commerce data analysis and business insights.
 
+## Key Insights
+
+The project focuses on analyzing e-commerce sales data and generating useful business insights using SQL.
+
 ## 🧩 Database ER Diagram
 
 ```mermaid
