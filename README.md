@@ -1,3 +1,7 @@
+## Project Status
+
+This project demonstrates SQL-based e-commerce data analysis and business insights.
+
 ## 🧩 Database ER Diagram
 
 ```mermaid
